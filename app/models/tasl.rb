@@ -1,0 +1,2 @@
+class Tasl < ApplicationRecord
+end

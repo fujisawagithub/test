@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @tasl %>
+
+<div>
+  <%= link_to "Edit this tasl", edit_tasl_path(@tasl) %> |
+  <%= link_to "Back to tasls", tasls_path %>
+
+  <%= button_to "Destroy this tasl", @tasl, method: :delete %>
+</div>

@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Tasls</h1>
+
+<div id="tasls">
+  <% @tasls.each do |tasl| %>
+    <%= render tasl %>
+    <p>
+      <%= link_to "Show this tasl", tasl %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New tasl", new_tasl_path %>
